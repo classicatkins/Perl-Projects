@@ -12,6 +12,8 @@ This Perl script is designed to scrape book titles and prices from the homepage 
 You can install the required Perl modules using CPAN with the following command:
 ```bash
 cpan install WWW::Mechanize HTML::TreeBuilder
+```
+
 
 ## Installation
 
@@ -23,7 +25,7 @@ cpan install WWW::Mechanize HTML::TreeBuilder
 To run the script, follow these steps:
 
 - **Make the Script Executable**:
-  ```bash
+```bash
   chmod +x book_scraper.pl
   ```
 
@@ -47,5 +49,5 @@ Saves the extracted information to a text file.
 Customization
 You can modify the script to scrape additional data, handle multiple pages, or write data to different formats or databases by altering the parsing logic and output handling.
 
-Disclaimer
+## Disclaimer
 This script is for educational purposes only. Ensure that you have permission to scrape any website and that your actions comply with the website's terms of service and legal restrictions.
